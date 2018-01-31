@@ -13,7 +13,7 @@ Install-Package Alexinea.EntityFrameworkCore.LoggingExposure
 
 via dotnet cli:
 ```
-dotnet add package Newtonsoft.Json --version 11.0.1-beta3
+dotnet add package Alexinea.EntityFrameworkCore.LoggingExposure
 ```
 
 

@@ -11,7 +11,7 @@
     <PropertyGroup>
         <Authors>AlexLEWIS</Authors>
         <Product>Alexinea.EntityFrameworkCore.LoggingExposure</Product>
-        <PackageIconUrl>https://github.com/Alexinea/EntityFrameworkCore.LoggingExposure/blob/master/logo/efcore.png</PackageIconUrl>
+        <PackageIconUrl>https://github.com/alexinea/EntityFrameworkCore.LoggingExposure/blob/master/logo/efcore.png?raw=true</PackageIconUrl>
         <PackageProjectUrl>https://github.com/Alexinea/EntityFrameworkCore.LoggingExposure</PackageProjectUrl>
         <PackageLicenseUrl>https://github.com/Alexinea/EntityFrameworkCore.LoggingExposure/blob/master/LICENSE</PackageLicenseUrl>
         <RepositoryType>git</RepositoryType>
