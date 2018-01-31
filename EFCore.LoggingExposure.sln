@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{185247C2-C9B8-40D7-A29B-6EFEE0BBD242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alexinea.EntityFrameworkCore.LoggingExposure", "src\Alexinea.EntityFrameworkCore.LoggingExposure\Alexinea.EntityFrameworkCore.LoggingExposure.csproj", "{0F1C4A13-2DF2-4C28-9925-E9A97F115D4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F1C4A13-2DF2-4C28-9925-E9A97F115D4E} = {185247C2-C9B8-40D7-A29B-6EFEE0BBD242}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F1C4A13-2DF2-4C28-9925-E9A97F115D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1C4A13-2DF2-4C28-9925-E9A97F115D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1C4A13-2DF2-4C28-9925-E9A97F115D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1C4A13-2DF2-4C28-9925-E9A97F115D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
