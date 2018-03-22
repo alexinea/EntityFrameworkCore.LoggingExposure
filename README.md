@@ -1,4 +1,6 @@
 # EntityFrameworkCore.LoggingExposure
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Falexinea%2FEntityFrameworkCore.LoggingExposure.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Falexinea%2FEntityFrameworkCore.LoggingExposure?ref=badge_shield)
+
 
 Support to using EF6-like api in EntityFrameworkCore, the api looks like `context.ConfigureLogging(...)`.
 
@@ -48,3 +50,7 @@ using (var db = new BloggingContext())
 ## Thanks
 
 So much thanks to [David Browne](https://blogs.msdn.microsoft.com/dbrowne/2017/09/22/simple-logging-for-ef-core/), all the achievements of this project belong to him. I'm just a porter...emmm.... copied codes and publish it. 😋
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Falexinea%2FEntityFrameworkCore.LoggingExposure.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Falexinea%2FEntityFrameworkCore.LoggingExposure?ref=badge_large)
