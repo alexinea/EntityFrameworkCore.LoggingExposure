@@ -30,6 +30,7 @@ namespace Alexinea.EntityFrameworkCore.LoggingExposure.Internal {
         }
 
         private class SelfLoggingConfiguration {
+            // ReSharper disable once MemberHidesStaticFromOuterClass
             public readonly Action<string> Logger;
             public readonly Func<string, LogLevel, bool> Filter;
 

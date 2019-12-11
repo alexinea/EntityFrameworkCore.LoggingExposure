@@ -1,37 +1,27 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\..\build\common.props" />
+
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
-        <Description>Support to using EF6-like api in EntityFramework Core 2.0</Description>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <AssemblyName>Alexinea.EntityFrameworkCore.LoggingExposure</AssemblyName>
         <PackageId>Alexinea.EntityFrameworkCore.LoggingExposure</PackageId>
-        <PackageTags>EntityFrameworkCore;ORM;Logging</PackageTags>
-        <PackageReleaseNotes>Support to using EF6-like api in EntityFramework Core 2.0</PackageReleaseNotes>
-        <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+        <Description>Support to using EF6-like api in EntityFramework Core 3.x</Description>
     </PropertyGroup>
 
-    <PropertyGroup>
-        <Authors>AlexLEWIS</Authors>
-        <Product>Alexinea.EntityFrameworkCore.LoggingExposure</Product>
-        <PackageIconUrl>https://github.com/alexinea/EntityFrameworkCore.LoggingExposure/blob/master/logo/efcore.png?raw=true</PackageIconUrl>
-        <PackageProjectUrl>https://github.com/Alexinea/EntityFrameworkCore.LoggingExposure</PackageProjectUrl>
-        <PackageLicenseUrl>https://github.com/Alexinea/EntityFrameworkCore.LoggingExposure/blob/master/LICENSE</PackageLicenseUrl>
-        <RepositoryType>git</RepositoryType>
-        <RepositoryUrl>https://github.com/Alexinea/EntityFrameworkCore.LoggingExposure</RepositoryUrl>
-        <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
-        <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
-        <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
-        <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
-        <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <DocumentationFile>Alexinea.EntityFrameworkCore.LoggingExposure.xml</DocumentationFile>
     </PropertyGroup>
 
-    <PropertyGroup>
-        <VersionPrefix>2.2.4</VersionPrefix>
-        <VersionSuffix></VersionSuffix>
-        <Version>$(VersionPrefix)$(VersionSuffix)</Version>
-        <AssemblyVersion>$(VersionPrefix).0</AssemblyVersion>
-        <FileVersion>$(VersionPrefix).0</FileVersion>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <DocumentationFile>Alexinea.EntityFrameworkCore.LoggingExposure.xml</DocumentationFile>
     </PropertyGroup>
     
     <ItemGroup>
-        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.4" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
     </ItemGroup>
+    
 </Project>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Alexinea.EntityFrameworkCore.LoggingExposure</name>
+    </assembly>
+    <members>
+        <member name="T:Alexinea.EntityFrameworkCore.LoggingExposure.DbContextExtensions">
+            <summary>
+            Extensions for DbContext
+            </summary>
+        </member>
+        <member name="M:Alexinea.EntityFrameworkCore.LoggingExposure.DbContextExtensions.ConfigureLogging(Microsoft.EntityFrameworkCore.DbContext,System.Action{System.String},System.Func{System.String,Microsoft.Extensions.Logging.LogLevel,System.Boolean})">
+            <summary>
+            Configure logging
+            </summary>
+            <param name="db"></param>
+            <param name="logger"></param>
+            <param name="filter"></param>
+        </member>
+        <member name="M:Alexinea.EntityFrameworkCore.LoggingExposure.DbContextExtensions.ConfigureLogging(Microsoft.EntityFrameworkCore.DbContext,System.Action{System.String},Alexinea.EntityFrameworkCore.LoggingExposure.LoggingCategories)">
+            <summary>
+            Configure logging
+            </summary>
+            <param name="db"></param>
+            <param name="logger"></param>
+            <param name="categories"></param>
+        </member>
+        <member name="T:Alexinea.EntityFrameworkCore.LoggingExposure.LoggingCategories">
+            <summary>
+            Logging categories
+            </summary>
+        </member>
+        <member name="F:Alexinea.EntityFrameworkCore.LoggingExposure.LoggingCategories.All">
+            <summary>
+            All
+            </summary>
+        </member>
+        <member name="F:Alexinea.EntityFrameworkCore.LoggingExposure.LoggingCategories.Sql">
+            <summary>
+            Sql
+            </summary>
+        </member>
+    </members>
+</doc>

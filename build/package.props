@@ -1,0 +1,12 @@
+<Project>
+    <PropertyGroup Label="Package">
+        <Product>Alexinea.EntityFrameworkCore.LoggingExposure</Product>
+        <Authors>AlexLEWIS</Authors>
+        <RepositoryUrl>https://github.com/Alexinea/EntityFrameworkCore.LoggingExposure</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageProjectUrl>https://github.com/Alexinea/EntityFrameworkCore.LoggingExposure</PackageProjectUrl>
+        <PackageIcon>efcore.png</PackageIcon>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageTags>EntityFrameworkCore;ORM;Logging</PackageTags>
+    </PropertyGroup>
+</Project>

@@ -4,6 +4,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{185247C2-C9B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alexinea.EntityFrameworkCore.LoggingExposure", "src\Alexinea.EntityFrameworkCore.LoggingExposure\Alexinea.EntityFrameworkCore.LoggingExposure.csproj", "{0F1C4A13-2DF2-4C28-9925-E9A97F115D4E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{BA39C78A-8202-4A43-B98F-31F3AF27D283}"
+ProjectSection(SolutionItems) = preProject
+	LICENSE = LICENSE
+	Publish.bat = Publish.bat
+	PublishToMyGet.bat = PublishToMyGet.bat
+	README.md = README.md
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{99D14190-10AA-4DD9-AAEE-D200A13B44C7}"
+ProjectSection(SolutionItems) = preProject
+	build\common.props = build\common.props
+	build\misc.props = build\misc.props
+	build\package.props = build\package.props
+	build\version.props = build\version.props
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -11,6 +27,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0F1C4A13-2DF2-4C28-9925-E9A97F115D4E} = {185247C2-C9B8-40D7-A29B-6EFEE0BBD242}
+		{99D14190-10AA-4DD9-AAEE-D200A13B44C7} = {BA39C78A-8202-4A43-B98F-31F3AF27D283}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0F1C4A13-2DF2-4C28-9925-E9A97F115D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
